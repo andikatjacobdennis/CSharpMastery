@@ -3,7 +3,9 @@
 Welcome to **C# Mastery** – your comprehensive learning hub for mastering C# at a senior level. This guide is designed for .NET developers preparing for technical interviews, brushing up on advanced concepts, or transitioning to modern C# (.NET 6/7/8+).
 
 ## Latest C# Version Information
+
 The documentation covers up to **C# 12.0** (released with .NET 8.0 in November 2023), including features like:
+
 - Primary constructors
 - Collection expressions
 - Alias any type
@@ -30,28 +32,31 @@ Create a searchable, styled documentation site locally using **MkDocs** + **Mate
 - Download: https://www.python.org/downloads  
 - **Important**: Check "Add Python to PATH" during installation  
 - Verify installation:  
+
   ```bash
   python --version
   ```
 
 ### .NET SDK (for C# Development)
+
 - Download latest .NET 8.0 SDK: https://dotnet.microsoft.com/download
 - Verify installation:
+
   ```bash
   dotnet --version
   ```
 
 ### VS Code (Recommended Editor)
 
-* Download: [https://code.visualstudio.com](https://code.visualstudio.com)
-* Recommended extensions:
+- Download: [https://code.visualstudio.com](https://code.visualstudio.com)
+- Recommended extensions:
   - C# Dev Kit
   - Material Theme for MkDocs
 
 ### Git
 
-* Download: [https://git-scm.com](https://git-scm.com)
-* Verify installation:
+- Download: [https://git-scm.com](https://git-scm.com)
+- Verify installation:
 
   ```bash
   git --version
@@ -92,7 +97,7 @@ Access your site at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 mkdocs build --clean
 ```
 
-* Outputs to the `site/` directory (ready for GitHub Pages or other hosting)
+- Outputs to the `site/` directory (ready for GitHub Pages or other hosting)
 
 ## Troubleshooting
 
