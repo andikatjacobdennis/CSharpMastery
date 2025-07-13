@@ -4,13 +4,7 @@ Welcome to **C# Mastery** – your comprehensive learning hub for mastering C# a
 
 ## Latest C# Version Information
 
-The documentation covers up to **C# 12.0** (released with .NET 8.0 in November 2023), including features like:
-
-- Primary constructors
-- Collection expressions
-- Alias any type
-- Default lambda parameters
-- Interceptors (experimental)
+The documentation covers up to **C# 13.0** (released with .NET 9.0 in November 2024)
 
 ## View the Learning Materials
 
