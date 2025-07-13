@@ -1,44 +1,95 @@
-# C# Mastery
+# CSharpMastery
 
-**CSharpMastery** is a complete and structured guide designed for developers aiming to master C# at a senior level. Whether you're preparing for a .NET interview, brushing up on modern C# features, or deepening your engineering skills — this repository has you covered.
+Welcome to **CSharpMastery** – your comprehensive learning hub for mastering C# at a senior level. This guide is designed for .NET developers preparing for technical interviews, brushing up on advanced concepts, or transitioning to modern C# (.NET 6/7/8+).
 
-## What’s Inside
+## View the Learning Materials
 
-- In-depth coverage of C# basics and advanced topics
-- Modern C# features (C# 10/11/12/13)
-- Async programming, LINQ, memory management, reflection
-- Design patterns, best practices, and secure coding
-- ADO.NET, collections, threading, and more
-- Notes, examples, and code snippets ready to use
+### Option A: Read Markdown Files Directly
 
-## Target Audience
+All documentation is organized in the `docs/` folder:
 
-- Mid to Senior .NET Developers
-- Interview Candidates for .NET roles
-- Backend Engineers using C#
-- Developers transitioning to modern .NET (Core, 5/6/7+)
+1. Open the `docs/` directory
+2. Start with `index.md` for the recommended roadmap
 
-## Usage
+### Option B: Build Interactive Documentation Website (Recommended)
 
-Clone or fork the repo and explore section by section. You can also use the Word template provided to take structured notes or customize for your learning.
+Create a searchable, styled documentation site locally using **MkDocs** + **Material for MkDocs**.
+
+## Prerequisites
+
+### Python 3.8+
+
+- Download: https://www.python.org/downloads  
+- **Important**: Check "Add Python to PATH" during installation  
+- Verify installation:  
+  ```bash
+  python --version
+
+### VS Code (Recommended Editor)
+
+* Download: [https://code.visualstudio.com](https://code.visualstudio.com)
+
+### Git
+
+* Download: [https://git-scm.com](https://git-scm.com)
+* Verify installation:
+
+  ```bash
+  git --version
+  ```
+
+## Setup Instructions
+
+### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/andikatjacobdennis/CSharpMastery.git
-````
-
-## Structure
-
-```
-/01-Introduction
-/02-Basics
-/03-ControlFlow
-/04-OOP
-/05-AdvancedOOP
-/06-ExceptionHandling
-...
-/18-SecurityBestPractices
+git clone https://github.com/yourusername/CSharpMastery.git
+cd CSharpMastery
 ```
 
-## Contributions
+### 2. Set Up Python Environment
 
-Feel free to fork and extend the material — especially if you're learning or mentoring others!
+```bash
+python -m pip install --upgrade pip
+pip install mkdocs mkdocs-material mkdocs-minify-plugin
+```
+
+### 3. Build and Serve the Documentation
+
+```bash
+mkdocs serve
+```
+
+Access your site at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+
+## Troubleshooting
+
+| Issue                 | Solution                                                             |
+| --------------------- | -------------------------------------------------------------------- |
+| MkDocs not found      | `python -m pip install --upgrade mkdocs`                             |
+| Plugin errors         | `pip install --force-reinstall mkdocs-material mkdocs-minify-plugin` |
+| Python not recognized | Reinstall Python with PATH enabled                                   |
+| Broken links          | Run `mkdocs build --strict`                                          |
+
+## Advanced Usage
+
+### Build Static Site
+
+```bash
+mkdocs build --clean
+```
+
+* Outputs to the `site/` directory
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your fork
+5. Open a Pull Request
+
+## License
+
+Open-source under the [MIT License](LICENSE)
