@@ -16,10 +16,10 @@ The documentation covers up to **C# 12.0** (released with .NET 8.0 in November 2
 
 ### Option A: Read Markdown Files Directly
 
-All documentation is organized in the `docs/` folder:
+All documentation is organized in the docs/ folder:
 
-1. Open the `docs/` directory
-2. Start with `index.md` for the recommended roadmap
+1. Open the docs/ directory
+2. Start with index.md for the recommended roadmap
 
 ### Option B: Build Interactive Documentation Website (Recommended)
 
@@ -97,16 +97,16 @@ Access your site at: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 mkdocs build --clean
 ```
 
-- Outputs to the `site/` directory (ready for GitHub Pages or other hosting)
+- Outputs to the site/ directory (ready for GitHub Pages or other hosting)
 
 ## Troubleshooting
 
 | Issue                 | Solution                                                             |
 | --------------------- | -------------------------------------------------------------------- |
-| MkDocs not found      | `python -m pip install --upgrade mkdocs`                             |
-| Material theme errors | `pip install --force-reinstall mkdocs-material`                      |
+| MkDocs not found      | python -m pip install --upgrade mkdocs                             |
+| Material theme errors | pip install --force-reinstall mkdocs-material                      |
 | Python not recognized | Reinstall Python with PATH enabled                                   |
-| Broken links          | Run `mkdocs build --strict`                                          |
+| Broken links          | Run mkdocs build --strict                                          |
 | .NET version mismatch | Update to latest .NET 8.0 SDK                                        |
 
 ## Contributing
