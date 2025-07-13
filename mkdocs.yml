@@ -1,5 +1,6 @@
 site_name: "C# Mastery"
 #site_url: https://yourgithubusername.github.io/CSharpMastery/
+
 theme:
   name: material
   features:
@@ -36,6 +37,7 @@ theme:
   font:
     text: Roboto
     code: Fira Code
+
 extra:
   search:
     language: en
@@ -44,6 +46,16 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/andikatjacobdennis/CSharpMastery
+
+plugins:
+  - search:
+      lang: en
+      separator: '[\s\-]'
+  - mermaid2
+  - tags
+  - minify:
+      minify_html: true
+
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
@@ -53,34 +65,20 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.extra
+  - pymdownx.extra:
+      pymdownx.superfences:
+        custom_fences:
+          - name: mermaid
+            class: mermaid
+            format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.details
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
       permalink: true
 
-nav:
-
-plugins:
-  - search:
-      lang: en
-      separator: '[\s\-]'
-  - tags
-  - minify:
-      minify_html: true
-
-markdown_extensions:
-  - pymdownx.highlight:
-      anchor_linenums: true
-      line_spans: __span
-      pygments_lang_class: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - pymdownx.superfences
-
 extra_css:
-  - stylesheets/extra.css
+#  - stylesheets/extra.css
 
 #extra_javascript:
 #  - javascripts/extra.js
