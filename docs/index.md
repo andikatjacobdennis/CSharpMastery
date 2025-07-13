@@ -3,7 +3,7 @@
 - [001 Introduction to C#](001_Introduction-to-C-Sharp/index.md)
   - [001.001 What is C#?](001_Introduction-to-C-Sharp/001.001.What-is-C-Sharp.md)
   - [001.002 History and Evolution](001_Introduction-to-C-Sharp/001.002.History-and-Evolution.md)
-  - [001.003 .NET Framework vs .NET Core vs .NET 5/6/7+](001_Introduction-to-C-Sharp/001.003..NET-Framework-vs-.NET-Core-vs-.NET-5_6_7.md)
+  - [001.003 .NET Framework vs .NET Core vs .NET 5+](001_Introduction-to-C-Sharp/001.003..NET-Framework-vs-.NET-Core-vs-.NET-5_9.md)
   - [001.004 Setting Up the Development Environment](001_Introduction-to-C-Sharp/001.004.Setting-Up-the-Development-Environment.md)
   - [001.005 First Program: "Hello, World!"](001_Introduction-to-C-Sharp/001.005.First-Program-Hello-World.md)
   - [001.006 Compilation and Execution](001_Introduction-to-C-Sharp/001.006.Compilation-and-Execution.md)
