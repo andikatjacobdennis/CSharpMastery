@@ -180,4 +180,3 @@
   - [018.007 Secure String Handling (SecureString alternatives) - Best practices.](018_Security-and-Best-Practices/018.007.Secure-String-Handling-(SecureString-alternatives)---Best-practices..md)
   - [018.008 Dependency Injection Security - Avoiding service misuse.](018_Security-and-Best-Practices/018.008.Dependency-Injection-Security---Avoiding-service-misuse..md)
   - [018.009 Code Analysis & Roslyn Analyzers - Enforcing best practices.](018_Security-and-Best-Practices/018.009.Code-Analysis-Roslyn-Analyzers---Enforcing-best-practices..md)
-
