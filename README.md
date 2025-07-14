@@ -23,7 +23,7 @@ Create a searchable, styled documentation site locally using **MkDocs** + **Mate
 
 ### Python 3.8+ (for MkDocs)
 
-- Download: https://www.python.org/downloads  
+- Download: <https://www.python.org/downloads>  
 - **Important**: Check "Add Python to PATH" during installation  
 - Verify installation:  
 
@@ -33,7 +33,7 @@ Create a searchable, styled documentation site locally using **MkDocs** + **Mate
 
 ### .NET SDK (for C# Development)
 
-- Download latest .NET 8.0 SDK: https://dotnet.microsoft.com/download
+- Download latest .NET 8.0 SDK: <https://dotnet.microsoft.com/download>
 - Verify installation:
 
   ```bash
@@ -67,7 +67,7 @@ pip install mkdocs mkdocs-material
 For enhanced features, install these additional plugins:
 
 ```bash
-pip install mkdocs-minify-plugin mkdocs-redirects mkdocs-git-revision-date-plugin
+pip install mkdocs-minify-plugin mkdocs-redirects mkdocs-git-revision-date-plugin mkdocs-mermaid2-plugin
 ```
 
 ### 2. Clone the Repository
